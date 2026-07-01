@@ -2,6 +2,11 @@ import type { NextConfig } from "next";
 import helmet from 'helmet';
 
 const nextConfig: NextConfig = {
+  experimental: {
+    turbopack: {
+      root: process.cwd(),
+    },
+  },
   async headers() {
     return [
       {

@@ -80,7 +80,7 @@ export function Hero() {
             className="inline-block px-3 py-1 bg-white border border-[var(--color-border)] rounded-full mb-6 shadow-sm"
           >
             <span className="text-sm font-semibold tracking-wide uppercase text-[var(--color-red)]">
-              America's Trusted Tax & Business Advisors
+              Your Trusted Global Tax & Business Advisors
             </span>
           </motion.div>
 
@@ -99,7 +99,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-[15px] md:text-lg text-[var(--color-text-secondary)] max-w-[600px] mb-8"
           >
-            We handle the complexity of US tax compliance so you can focus on what you do best — running and growing your business. Serving individuals, NRIs, startups, and established companies nationwide.
+            We handle the complexity of US tax compliance so you can focus on what you do best — running and growing your business. Serving individuals, NRIs, startups, and established companies worldwide.
           </motion.p>
 
           {/* Trust Indicators */}

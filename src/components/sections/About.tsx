@@ -60,7 +60,7 @@ export function About() {
                 US Prime Tax was built on a straightforward idea: every business owner and individual deserves expert tax guidance without the confusion or the runaround. We started because we saw too many clients getting buried in paperwork, overpaying on taxes, and working with firms that treated them like a number.
               </p>
               <p>
-                Today, we serve hundreds of clients across all 50 states — from first-time filers and self-employed professionals to multi-entity business owners and NRIs managing international financial obligations. Our job is to make your financial life simpler, smarter, and more profitable.
+                Today, we serve hundreds of clients worldwide — from first-time filers and self-employed professionals to multi-entity business owners and NRIs managing international financial obligations. Our job is to make your financial life simpler, smarter, and more profitable.
               </p>
             </div>
             <Button

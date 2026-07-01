@@ -14,7 +14,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "US Prime Tax | Expert Tax & Business Solutions",
-  description: "Professional US tax preparation, business setup, bookkeeping, and ITIN services for individuals, NRIs, and businesses across all 50 states.",
+  description: "Professional US tax preparation, business setup, bookkeeping, and ITIN services for individuals, NRIs, and businesses worldwide.",
   keywords: "US tax services, NRI tax filing, business tax, bookkeeping, ITIN, tax planning",
   openGraph: {
     title: "US Prime Tax",

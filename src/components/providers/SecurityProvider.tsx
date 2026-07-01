@@ -3,6 +3,11 @@ import { useEffect } from 'react'
 
 export function SecurityProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
+    // Only apply strict security rules in production
+    if (process.env.NODE_ENV !== 'production') {
+      return
+    }
+
     // 1. Block right-click
     const blockContext = (e: MouseEvent) => {
       e.preventDefault()

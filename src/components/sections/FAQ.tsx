@@ -24,7 +24,7 @@ const FAQS = [
   },
   {
     question: "Do you file returns for all US states?",
-    answer: "Yes. We handle federal and state returns for all 50 states, including multi-state filings for clients with income across multiple jurisdictions.",
+    answer: "Yes. We handle federal and state returns for all US states, and also manage tax obligations for international clients and NRIs worldwide.",
   },
   {
     question: "What happens if I haven't filed taxes for several years?",

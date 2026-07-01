@@ -61,7 +61,7 @@ export function Testimonials() {
 
         {/* Testimonials Grid / Slider */}
         <div className="relative max-w-[1400px] mx-auto">
-          <div className="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar gap-6 pb-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 md:overflow-visible">
+          <div className="flex overflow-x-auto snap-x snap-mandatory no-scrollbar gap-6 pb-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 md:overflow-visible">
             {TESTIMONIALS.map((testimonial, i) => (
               <motion.div
                 key={testimonial.id}

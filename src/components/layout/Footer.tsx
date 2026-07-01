@@ -24,13 +24,13 @@ export function Footer() {
               <Image
                 src="/logo.png"
                 alt="US Prime Tax Logo"
-                width={180}
-                height={60}
-                className="h-12 w-auto object-contain"
+                width={240}
+                height={80}
+                className="h-16 w-auto object-contain"
               />
             </Link>
             <p className="text-sm text-[#94A3B8] mt-2">
-              Expert tax and business solutions for individuals, entrepreneurs, and growing companies across the United States.
+              Expert tax and business solutions for individuals, entrepreneurs, and growing companies worldwide.
             </p>
             <div className="flex items-center gap-4 mt-4">
               {[Facebook, Twitter, Linkedin, Instagram].map((Icon, i) => (
@@ -123,7 +123,7 @@ export function Footer() {
                 <span className="mt-0.5 text-base">📍</span>
                 <div className="flex flex-col">
                   <span className="text-white">Hyderabad, India</span>
-                  <span className="text-xs">Serving Clients Across the USA</span>
+                  <span className="text-xs">Serving Clients Worldwide</span>
                 </div>
               </div>
 

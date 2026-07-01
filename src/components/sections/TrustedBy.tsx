@@ -22,7 +22,7 @@ export function TrustedBy() {
           transition={{ duration: 0.6 }}
           className="font-semibold text-[var(--color-navy)] mb-3 tracking-tight"
         >
-          Helping Clients in All 50 States
+          Helping Clients Worldwide
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
