@@ -79,8 +79,11 @@ export function Hero() {
             transition={{ duration: 0.6 }}
             className="inline-block px-3 py-1 bg-white border border-[var(--color-border)] rounded-full mb-6 shadow-sm"
           >
-            <span className="text-sm font-semibold tracking-wide uppercase text-[var(--color-red)]">
-              GLOBAL TAX & BUSINESS SOLUTIONS
+            <span
+              className="text-sm font-semibold tracking-wide uppercase text-[var(--color-red)]"
+              suppressHydrationWarning
+            >
+              GLOBAL TAX &amp; BUSINESS SOLUTIONS
             </span>
           </motion.div>
 
