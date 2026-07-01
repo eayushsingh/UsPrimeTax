@@ -73,19 +73,14 @@ export function Hero() {
         
         {/* Hero Content */}
         <div className="w-full lg:w-[55%] xl:w-[60%] text-center lg:text-left flex flex-col items-center lg:items-start pt-4 lg:pt-0">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="inline-block px-3 py-1 bg-white border border-[var(--color-border)] rounded-full mb-6 shadow-sm"
-          >
+          <div className="inline-block px-3 py-1 bg-white border border-[var(--color-border)] rounded-full mb-6 shadow-sm">
             <span
               className="text-sm font-semibold tracking-wide uppercase text-[var(--color-red)]"
               suppressHydrationWarning
             >
               GLOBAL TAX &amp; BUSINESS SOLUTIONS
             </span>
-          </motion.div>
+          </div>
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
