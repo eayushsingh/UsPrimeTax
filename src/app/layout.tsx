@@ -41,7 +41,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} antialiased`}>
+    <html lang="en" suppressHydrationWarning className={`${inter.variable} antialiased`}>
       <body className="min-h-screen flex flex-col bg-white text-[#1A1A1A]">
         <SecurityProvider>
           <SmoothScrollProvider>

@@ -80,7 +80,7 @@ export function Hero() {
             className="inline-block px-3 py-1 bg-white border border-[var(--color-border)] rounded-full mb-6 shadow-sm"
           >
             <span className="text-sm font-semibold tracking-wide uppercase text-[var(--color-red)]">
-              Your Trusted Global Tax & Business Advisors
+              GLOBAL TAX & BUSINESS SOLUTIONS
             </span>
           </motion.div>
 

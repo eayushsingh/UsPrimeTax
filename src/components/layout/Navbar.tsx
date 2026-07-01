@@ -52,7 +52,7 @@ export function Navbar() {
             alt="US Prime Tax Logo"
             width={320}
             height={100}
-            className="h-14 w-auto object-contain md:h-16 lg:h-20 block align-middle"
+            className="h-10 w-auto object-contain md:h-12 lg:h-14 block align-middle"
             priority
           />
         </Link>
