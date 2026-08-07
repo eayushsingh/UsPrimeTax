@@ -17,7 +17,7 @@ const SERVICES = [
     title: "Individual Tax Filing",
     desc: "Federal and state returns prepared with precision. We identify every deduction available to you and file with zero errors.",
     icon: User,
-    image: "/images/services/individual-tax.jpg",
+    image: "/images/services/individual-tax-v2.jpg",
     href: "https://wa.me/918186918860?text=Hi%2C%20I%27m%20interested%20in%20Individual%20Tax%20Filing%20services.",
   },
   {
@@ -43,9 +43,9 @@ const SERVICES = [
   },
   {
     title: "ITIN Application & Renewal",
-    desc: "We handle ITIN applications and renewals for non-resident individuals, foreign nationals, and international filers.",
+    desc: "We provide guidance on ITIN applications and renewals for non-resident individuals, foreign nationals, and international filers.",
     icon: IdCard,
-    image: "/images/services/itin-application-v2.jpg",
+    image: "/images/services/itin-application-v3.jpg",
     href: "https://wa.me/918186918860?text=Hi%2C%20I%27m%20interested%20in%20ITIN%20Application%20%26%20Renewal.",
   },
 ];
