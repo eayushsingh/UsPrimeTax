@@ -9,6 +9,7 @@ import emailjs from "@emailjs/browser";
 
 export function FinalCTA() {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [phoneError, setPhoneError] = useState("");
   const [origin, setOrigin] = useState("https://us-prime-tax.vercel.app");
   const formRef = useRef<HTMLFormElement>(null);
 
@@ -161,6 +162,16 @@ export function FinalCTA() {
                 ref={formRef}
                 onSubmit={async (e) => {
                   e.preventDefault();
+                  
+                  // Phone Validation
+                  const phoneInput = formRef.current?.phone.value || "";
+                  const digitsOnly = phoneInput.replace(/\D/g, ""); // Strip non-numeric characters
+                  if (digitsOnly.length < 10 || digitsOnly.length > 15) {
+                    setPhoneError("Please enter a valid phone number (10-15 digits)");
+                    return;
+                  }
+                  
+                  setPhoneError(""); // Clear error if valid
                   setIsSubmitting(true);
                   
                   try {
@@ -231,7 +242,11 @@ export function FinalCTA() {
                       required
                       placeholder="Phone Number (with country code)"
                       className="block w-full pl-11 pr-4 py-3.5 bg-white/5 border border-white/10 rounded-xl text-white placeholder-blue-200/50 focus:outline-none focus:ring-2 focus:ring-[var(--color-red)] focus:border-transparent transition-all"
+                      onChange={() => { if (phoneError) setPhoneError("") }}
                     />
+                    {phoneError && (
+                      <p className="text-red-400 text-sm mt-1.5 ml-1">{phoneError}</p>
+                    )}
                   </div>
 
                   {/* Service Dropdown */}
