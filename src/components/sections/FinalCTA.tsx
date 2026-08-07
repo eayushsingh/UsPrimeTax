@@ -4,10 +4,15 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import { WhatsAppIcon } from "@/components/ui/FloatingWhatsApp";
 import { Send, User, Mail, Phone, Briefcase } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export function FinalCTA() {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [origin, setOrigin] = useState("https://us-prime-tax.vercel.app");
+
+  useEffect(() => {
+    setOrigin(window.location.origin);
+  }, []);
 
   return (
     <section id="contact" className="py-16 md:py-[120px] relative overflow-hidden bg-[var(--color-navy)] flex items-center justify-center">
@@ -151,9 +156,24 @@ export function FinalCTA() {
               </div>
 
               <form 
-                action="https://formsubmit.co/usprimetax@gmail.com" 
-                method="POST"
-                onSubmit={() => setIsSubmitting(true)}
+                onSubmit={async (e) => {
+                  e.preventDefault();
+                  setIsSubmitting(true);
+                  const formData = new FormData(e.currentTarget);
+                  
+                  try {
+                    await fetch("https://formsubmit.co/ajax/usprimetax@gmail.com", {
+                      method: "POST",
+                      body: formData,
+                    });
+                    // Unconditionally redirect to thank you page to provide smooth UX
+                    window.location.href = "/thank-you";
+                  } catch (error) {
+                    console.error("Form submission error:", error);
+                    // Still redirect so the user isn't stuck if adblocker blocks it
+                    window.location.href = "/thank-you";
+                  }
+                }}
                 className="space-y-5"
               >
                 {/* FormSubmit Configuration */}
