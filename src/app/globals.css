@@ -25,12 +25,12 @@
 :root {
   --background: var(--color-bg-base);
   --foreground: var(--color-text-primary);
-  --navbar-height: 64px;
+  --navbar-height: 80px;
 }
 
 @media (min-width: 768px) {
   :root {
-    --navbar-height: 72px;
+    --navbar-height: 100px;
   }
 }
 

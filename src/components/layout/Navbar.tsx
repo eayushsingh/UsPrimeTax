@@ -65,15 +65,15 @@ export function Navbar() {
     >
       <div className="max-w-[1400px] mx-auto px-5 lg:px-8 h-full flex items-center justify-between">
         {/* ── Logo ── */}
-        <Link href="/" className="flex items-center z-50 relative flex-shrink-0 mt-1.5 md:mt-2">
+        <Link href="/" className="flex items-center z-50 relative flex-shrink-0">
           <Image
             src="/logo.png"
             alt="Global Prime Tax Logo"
-            width={320}
-            height={100}
+            width={400}
+            height={120}
             className={cn(
               "w-auto object-contain block transition-all duration-500",
-              scrolled ? "h-14 md:h-16" : "h-16 md:h-20 lg:h-24"
+              scrolled ? "h-16 md:h-20" : "h-20 md:h-28 lg:h-32"
             )}
             priority
           />
