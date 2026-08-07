@@ -4,11 +4,13 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import { WhatsAppIcon } from "@/components/ui/FloatingWhatsApp";
 import { Send, User, Mail, Phone, Briefcase } from "lucide-react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 export function FinalCTA() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [origin, setOrigin] = useState("https://us-prime-tax.vercel.app");
+  const formRef = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
     setOrigin(window.location.origin);
@@ -156,16 +158,28 @@ export function FinalCTA() {
               </div>
 
               <form 
+                ref={formRef}
                 onSubmit={async (e) => {
                   e.preventDefault();
                   setIsSubmitting(true);
-                  const formData = new FormData(e.currentTarget);
                   
                   try {
-                    await fetch("https://formsubmit.co/ajax/usprimetax@gmail.com", {
-                      method: "POST",
-                      body: formData,
-                    });
+                    const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "";
+                    const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "";
+                    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "";
+                    
+                    if (!serviceId || !templateId || !publicKey) {
+                      console.error("EmailJS credentials are missing!");
+                      // Optionally handle missing credentials
+                    }
+
+                    await emailjs.sendForm(
+                      serviceId,
+                      templateId,
+                      formRef.current!,
+                      publicKey
+                    );
+                    
                     // Unconditionally redirect to thank you page to provide smooth UX
                     window.location.href = "/thank-you";
                   } catch (error) {
@@ -176,10 +190,6 @@ export function FinalCTA() {
                 }}
                 className="space-y-5"
               >
-                {/* FormSubmit Configuration */}
-                <input type="hidden" name="_subject" value="New Website Inquiry - US Prime Tax" />
-                <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_template" value="box" />
 
                 <div className="space-y-4">
                   {/* Name Input */}
