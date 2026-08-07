@@ -45,7 +45,7 @@ export function TrustedBy() {
 
         <div className="flex w-fit animate-marquee group-hover:[animation-play-state:paused]">
           {/* Double the logos to create seamless loop */}
-          {[...LOGOS, ...LOGOS, ...LOGOS].map((logo, i) => (
+          {[...LOGOS, ...LOGOS].map((logo, i) => (
             <div
               key={i}
               className="flex-shrink-0 flex items-center justify-center w-[160px] md:w-[240px]"
