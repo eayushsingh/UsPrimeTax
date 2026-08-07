@@ -38,7 +38,7 @@ export function SecurityProvider({ children }: { children: React.ReactNode }) {
     // 5. Log console access attempts (warn developers)
     if (typeof window !== 'undefined') {
       const originalLog = console.log
-      console.log = function(...args: any[]) {
+      console.log = function(...args: unknown[]) {
         console.warn('Console access detected')
         originalLog.apply(console, args)
       }

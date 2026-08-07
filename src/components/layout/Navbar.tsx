@@ -65,7 +65,7 @@ export function Navbar() {
     >
       <div className="max-w-[1400px] mx-auto px-5 lg:px-8 h-full flex items-center justify-between">
         {/* ── Logo ── */}
-        <Link href="/" className="flex items-center z-50 relative flex-shrink-0">
+        <Link href="/" className="flex items-center z-50 relative flex-shrink-0 mt-1.5 md:mt-2">
           <Image
             src="/logo.png"
             alt="Global Prime Tax Logo"

@@ -4,7 +4,6 @@ import type { NextRequest } from 'next/server'
 export function proxy(request: NextRequest) {
   // Block requests from unusual origins
   const origin = request.headers.get('origin')
-  const referer = request.headers.get('referer')
 
   if (request.method === 'POST') {
     // Only allow same-origin POST requests

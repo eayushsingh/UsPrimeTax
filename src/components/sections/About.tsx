@@ -1,13 +1,13 @@
 "use client";
 
 import { motion, useInView, useSpring, useTransform } from "framer-motion";
-import { useRef, useEffect, useState } from "react";
+import { useRef, useEffect } from "react";
 import { Button } from "@/components/ui/Button";
 
 function AnimatedCounter({ value, suffix = "", duration = 2.5 }: { value: number; suffix?: string; duration?: number }) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-50px" });
-  const [hasStarted, setHasStarted] = useState(false);
+  const hasStarted = useRef(false);
 
   const spring = useSpring(0, {
     duration: duration * 1000,
@@ -19,11 +19,11 @@ function AnimatedCounter({ value, suffix = "", duration = 2.5 }: { value: number
   });
 
   useEffect(() => {
-    if (isInView && !hasStarted) {
+    if (isInView && !hasStarted.current) {
       spring.set(value);
-      setHasStarted(true);
+      hasStarted.current = true;
     }
-  }, [isInView, spring, value, hasStarted]);
+  }, [isInView, spring, value]);
 
   return <motion.span ref={ref}>{display}</motion.span>;
 }

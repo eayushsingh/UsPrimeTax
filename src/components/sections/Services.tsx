@@ -24,7 +24,7 @@ const SERVICES = [
     title: "Business Tax Returns",
     desc: "From single-member LLCs to C-Corporations — accurate, compliant, and strategically filed business returns.",
     icon: Briefcase,
-    image: "/images/services/business-tax.jpg",
+    image: "/images/services/business-tax-v2.jpg",
     href: "https://wa.me/918186918860?text=Hi%2C%20I%27m%20interested%20in%20Business%20Tax%20Return%20services.",
   },
   {
@@ -45,7 +45,7 @@ const SERVICES = [
     title: "ITIN Application & Renewal",
     desc: "We handle ITIN applications and renewals for non-resident individuals, foreign nationals, and international filers.",
     icon: IdCard,
-    image: "/images/services/itin-application.jpg",
+    image: "/images/services/itin-application-v2.jpg",
     href: "https://wa.me/918186918860?text=Hi%2C%20I%27m%20interested%20in%20ITIN%20Application%20%26%20Renewal.",
   },
 ];

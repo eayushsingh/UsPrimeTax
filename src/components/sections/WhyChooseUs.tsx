@@ -50,10 +50,10 @@ export function WhyChooseUs() {
             Built for Businesses That Demand More
           </h2>
           <p className="text-[var(--color-text-secondary)] mb-4">
-            We don't just file returns. We build long-term financial clarity for our clients.
+            We don&apos;t just file returns. We build long-term financial clarity for our clients.
           </p>
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-[var(--color-bg-alt)] border border-[var(--color-border)] rounded-full text-sm font-medium text-[var(--color-text-primary)] shadow-sm">
-            <span className="text-[var(--color-red)] font-bold">✓</span> Reachable by phone & WhatsApp · Mon–Sat, 9AM–7PM IST
+            <span className="text-[var(--color-red)] font-bold">✓</span> Reachable by phone & WhatsApp · Mon–Sat, 9AM–7PM EST
           </div>
         </div>
 

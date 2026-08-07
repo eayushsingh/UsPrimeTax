@@ -114,8 +114,8 @@ export function Footer() {
 
               <div className="flex items-start gap-2">
                 <span className="mt-0.5 text-base">📧</span>
-                <a href="mailto:info@usprimetax.com" className="hover:text-[var(--color-red)] transition-colors text-white">
-                  info@usprimetax.com
+                <a href="mailto:usprimetax@gmail.com" className="hover:text-[var(--color-red)] transition-colors text-white">
+                  usprimetax@gmail.com
                 </a>
               </div>
 
@@ -129,7 +129,7 @@ export function Footer() {
 
               <div className="flex items-start gap-2">
                 <span className="mt-0.5 text-base">🕐</span>
-                <span className="text-white">Mon – Sat · 9AM – 7PM IST</span>
+                <span className="text-white">Mon – Sat · 9AM – 7PM EST</span>
               </div>
             </div>
           </div>

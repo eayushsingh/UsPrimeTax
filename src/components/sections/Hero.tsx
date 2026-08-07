@@ -175,6 +175,12 @@ export function Hero() {
               📞 +91 81869 18860
             </a>
             <a
+              href="mailto:usprimetax@gmail.com"
+              className="hover:text-[var(--color-text-secondary)] transition-colors"
+            >
+              ✉️ usprimetax@gmail.com
+            </a>
+            <a
               href="https://wa.me/918186918860"
               target="_blank"
               rel="noopener noreferrer"
