@@ -11,8 +11,8 @@ const FAQS = [
     answer: "Yes, completely. Our initial discovery call has no cost and no obligation. It's simply a chance for us to understand your situation and for you to evaluate if we're the right fit.",
   },
   {
-    question: "Can you help with taxes if I live outside the US?",
-    answer: "Absolutely. We specialize in assisting NRIs, foreign nationals, and international clients with US tax obligations — including ITIN applications, FATCA requirements, and treaty-based filings.",
+    question: "Can you help with international and cross-border taxes?",
+    answer: "Absolutely. We specialize in assisting clients worldwide with cross-border tax obligations — including international tax compliance, foreign asset reporting, and treaty-based filings.",
   },
   {
     question: "What documents will I need to provide?",
@@ -23,20 +23,20 @@ const FAQS = [
     answer: "Most individual returns are completed within 5–10 business days. Business returns and complex situations may take 2–3 weeks. We'll give you an honest timeline before we begin.",
   },
   {
-    question: "Do you file returns for all US states?",
-    answer: "Yes. We handle federal and state returns for all US states, and also manage tax obligations for international clients and NRIs worldwide.",
+    question: "Do you support multiple tax jurisdictions globally?",
+    answer: "Yes. We handle filings across multiple major international jurisdictions and states, managing tax obligations for international clients and businesses worldwide.",
   },
   {
     question: "What happens if I haven't filed taxes for several years?",
-    answer: "We handle back-year filings and IRS non-filer situations regularly. It's more common than you'd think, and the sooner we address it, the better your options.",
+    answer: "We handle back-year filings and non-filer situations regularly. It's more common than you'd think, and the sooner we address it, the better your options.",
   },
   {
     question: "How are my documents kept secure?",
     answer: "All files are transmitted and stored using encrypted, secure systems. We follow strict data handling protocols and your information is never shared with third parties.",
   },
   {
-    question: "Can you represent me if I receive an IRS notice?",
-    answer: "Yes. Our credentialed professionals can respond to IRS correspondence and represent clients in examinations and audits. Contact us as soon as you receive any IRS communication.",
+    question: "Can you represent me if I receive a tax authority notice?",
+    answer: "Yes. Our credentialed professionals can respond to tax authority correspondence and represent clients in examinations and audits. Contact us as soon as you receive any communication.",
   },
   {
     question: "Do you offer ongoing bookkeeping, not just tax filing?",

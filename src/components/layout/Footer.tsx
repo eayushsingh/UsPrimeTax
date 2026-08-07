@@ -23,7 +23,7 @@ export function Footer() {
             <Link href="/" className="flex items-center w-fit bg-white px-2 py-1.5 rounded-lg hover:opacity-90 transition-opacity mx-auto lg:mx-0">
               <Image
                 src="/logo.png"
-                alt="US Prime Tax Logo"
+                alt="Global Prime Tax Logo"
                 width={240}
                 height={80}
                 className="h-16 w-auto object-contain"
@@ -174,7 +174,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="border-t border-[#E8EAED]/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-[#94A3B8] text-center md:text-left">
-            © 2025 US Prime Tax. All rights reserved.
+            © 2025 Global Prime Tax. All rights reserved.
           </p>
           <p className="text-xs font-semibold text-[var(--color-red)] text-center md:text-right">
             Expertise · Integrity · Results

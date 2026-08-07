@@ -31,7 +31,7 @@ const FEATURES = [
   },
   {
     title: "Verified & Credentialed",
-    desc: "Our team holds active credentials and stays current on IRS regulations, tax law updates, and state-specific rules.",
+    desc: "Our team holds active credentials and stays current on international tax regulations, tax law updates, and jurisdictional rules.",
     icon: Award,
   },
 ];

@@ -57,7 +57,7 @@ export function About() {
             </h2>
             <div className="flex flex-col gap-4 text-[var(--color-text-secondary)] leading-[1.8] mb-8">
               <p>
-                US Prime Tax was built on a straightforward idea: every business owner and individual deserves expert tax guidance without the confusion or the runaround. We started because we saw too many clients getting buried in paperwork, overpaying on taxes, and working with firms that treated them like a number.
+                Global Prime Tax was built on a straightforward idea: every business owner and individual deserves expert tax guidance without the confusion or the runaround. We started because we saw too many clients getting buried in paperwork, overpaying on taxes, and working with firms that treated them like a number.
               </p>
               <p>
                 Today, we serve hundreds of clients worldwide — from first-time filers and self-employed professionals to multi-entity business owners and NRIs managing international financial obligations. Our job is to make your financial life simpler, smarter, and more profitable.
@@ -78,7 +78,7 @@ export function About() {
                 number: 500,
                 suffix: "+",
                 label: "Clients Served",
-                subtext: "Across all 50 US states",
+                subtext: "Across multiple countries globally",
               },
               {
                 number: 50,
@@ -91,7 +91,7 @@ export function About() {
                 number: 99,
                 suffix: ".2%",
                 label: "Accuracy Rate",
-                subtext: "Zero IRS penalties on our watch",
+                subtext: "Zero penalties on our watch",
               },
             ].map((stat, i) => (
               <motion.div

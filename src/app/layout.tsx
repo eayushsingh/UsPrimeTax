@@ -13,18 +13,18 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "US Prime Tax | Expert Tax & Business Solutions",
-  description: "Professional US tax preparation, business setup, bookkeeping, and ITIN services for individuals, NRIs, and businesses worldwide.",
-  keywords: "US tax services, NRI tax filing, business tax, bookkeeping, ITIN, tax planning",
+  title: "Global Prime Tax | Expert Tax & Business Solutions",
+  description: "Professional global tax preparation, business setup, bookkeeping, and international tax services for individuals, NRIs, and businesses worldwide.",
+  keywords: "global tax services, international tax filing, business tax, bookkeeping, ITIN, tax planning",
   openGraph: {
-    title: "US Prime Tax",
-    description: "Your trusted partner for US tax and business solutions.",
+    title: "Global Prime Tax",
+    description: "Your trusted partner for global tax and business solutions.",
     url: "https://usprimetax.com",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "US Prime Tax",
+    title: "Global Prime Tax",
   },
   robots: "index, follow",
 };
