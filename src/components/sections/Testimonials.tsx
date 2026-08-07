@@ -8,7 +8,7 @@ import { useRef, useState, useEffect, useCallback } from "react";
 const TESTIMONIALS = [
   {
     id: 1,
-    text: "Switched to Global Prime Tax after years of doing it myself and immediately noticed the difference. They caught deductions I had been missing for three years straight.",
+    text: "Switched to US Prime Tax after years of doing it myself and immediately noticed the difference. They caught deductions I had been missing for three years straight.",
     author: "David R.",
     role: "Freelance Software Engineer",
     location: "San Francisco, CA",

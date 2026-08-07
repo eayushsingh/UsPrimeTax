@@ -57,7 +57,7 @@ export function About() {
             </h2>
             <div className="flex flex-col gap-4 text-[var(--color-text-secondary)] leading-[1.8] mb-8">
               <p>
-                Global Prime Tax was built on a straightforward idea: every business owner and individual deserves expert tax guidance without the confusion or the runaround. We started because we saw too many clients getting buried in paperwork, overpaying on taxes, and working with firms that treated them like a number.
+                US Prime Tax was built on a straightforward idea: every business owner and individual deserves expert tax guidance without the confusion or the runaround. We started because we saw too many clients getting buried in paperwork, overpaying on taxes, and working with firms that treated them like a number.
               </p>
               <p>
                 Today, we serve hundreds of clients worldwide — from first-time filers and self-employed professionals to multi-entity business owners and NRIs managing international financial obligations. Our job is to make your financial life simpler, smarter, and more profitable.

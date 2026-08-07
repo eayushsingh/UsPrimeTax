@@ -68,7 +68,7 @@ export function Navbar() {
         <Link href="/" className="flex items-center z-50 relative flex-shrink-0">
           <Image
             src="/logo.png"
-            alt="Global Prime Tax Logo"
+            alt="US Prime Tax Logo"
             width={400}
             height={120}
             className={cn(

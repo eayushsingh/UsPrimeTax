@@ -31,7 +31,7 @@ export function TrustedBy() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-base text-[var(--color-text-secondary)]"
         >
-          They chose Global Prime Tax. It&apos;s time you did too. From solo founders to multi-entity businesses — we&apos;ve got the experience to handle it.
+          They chose US Prime Tax. It&apos;s time you did too. From solo founders to multi-entity businesses — we&apos;ve got the experience to handle it.
         </motion.p>
       </div>
 

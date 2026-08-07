@@ -177,7 +177,7 @@ export function FinalCTA() {
                 className="space-y-5"
               >
                 {/* FormSubmit Configuration */}
-                <input type="hidden" name="_subject" value="New Website Inquiry - Global Prime Tax" />
+                <input type="hidden" name="_subject" value="New Website Inquiry - US Prime Tax" />
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="box" />
 

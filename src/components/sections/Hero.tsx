@@ -94,7 +94,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.25 }}
             className="hero-subheadline"
           >
-            We handle the complexity of global tax compliance so you can focus
+            We handle the complexity of US tax compliance so you can focus
             on what you do best — running and growing your business.
           </motion.p>
 
